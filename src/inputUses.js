@@ -6,7 +6,7 @@ export function InputSave () {
 
     useEffect(() => {
         console.log('gay');
-    })
+    },[]);
 
     return(
         
@@ -19,5 +19,5 @@ export function InputSave () {
                 }
             }>Save</button>
         </div>
-    )
+    );
 }   
