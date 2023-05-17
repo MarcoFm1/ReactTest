@@ -12,6 +12,7 @@ export function Counter(){
 
     return(
         <div> 
+            <hr/>
             <h1>PRO COUNTER = {counter}</h1>
             <button onClick={() => {
                 setCounter(counter + 1);

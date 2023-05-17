@@ -7,6 +7,7 @@ import { Button } from "./button";
 import { Test } from "./Tarea"
 import { Post } from "./Posts"
 import { Counter } from "./counter"
+import { InputSave } from "./inputUses";
 
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -64,7 +65,7 @@ root.render(
   
     {list.map(function (list, i){
       return(
-        <div key={i}>            
+        <div key={i}>   
           <h1>{list.name}</h1> {/* Se usa key={i} para funcionamiento interno de React ya que necesita keys para que si tiene que cambiar un valor lo haga directamente a esa id, sino salta error*/}
           <img src={list.img}/>
         </div>
@@ -77,5 +78,8 @@ root.render(
 
     <Counter/>
   
+
+    <InputSave/>
+
   </>
 );
