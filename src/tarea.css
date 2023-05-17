@@ -1,0 +1,12 @@
+.main-pos{
+    align-items: center;
+    background-color: aquamarine;
+    text-align: center;   
+}
+
+.main-neg{
+    align-items: center;
+    color: white;
+    background-color: rgb(136, 0, 0);
+    text-align: center;   
+}
